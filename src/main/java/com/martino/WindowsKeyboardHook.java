@@ -85,7 +85,7 @@ public final class WindowsKeyboardHook implements AutoCloseable {
             case VK_VOLUME_MUTE -> actionHandler.onMute();
             case VK_ESCAPE -> {
                 System.out.println("ESC pressed. Exiting Martino.");
-                stop();
+                // stop();
             }
             default -> {
                 // Ignore other keys.
