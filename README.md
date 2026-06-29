@@ -7,7 +7,7 @@ Prototype 1: Windows media-volume keys control Voicemeeter Potato VAIO3 gain.
 - Windows 10/11 64-bit
 - Java 25
 - Maven
-- Voicemeeter Potato installed and running
+- Camilla DSP installed and running
 
 ## Run
 
@@ -22,24 +22,13 @@ Open `src/main/java/com/martino/AppConfig.java`.
 Check:
 
 ```java
-VOICEMEETER_DLL_PATH
-TARGET_STRIP_INDEX
+
+Camilla DSP
 ```
-
-For Voicemeeter Potato, VAIO3 is commonly one of:
-
-```text
-Strip[5]
-Strip[6]
-Strip[7]
-```
-
-Start testing with `Strip[7]`. If the wrong fader moves, change the index.
-
 ## Controls
 
-- Volume Up: +1 dB
-- Volume Down: -1 dB
+- Volume Up: +0.5 dB
+- Volume Down: -0.5 dB
 - Mute: toggle mute
 - ESC: exits the app
 
@@ -51,8 +40,8 @@ This project uses native Windows keyboard hook via JNA:
 Java -> JNA -> user32.dll -> WH_KEYBOARD_LL
 ```
 
-And controls Voicemeeter through:
+And controls Camilla through:
 
 ```text
-VoicemeeterRemote64.dll
+Camilla DSP API
 ```
