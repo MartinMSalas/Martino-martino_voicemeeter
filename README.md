@@ -1,6 +1,6 @@
 # Martino Voicemeeter Controller
 
-Prototype 1: Windows media-volume keys control Voicemeeter Potato VAIO3 gain.
+Prototype 1: Windows media-volume keys control Camilla DSP Gui gain.
 
 ## Requirements
 
