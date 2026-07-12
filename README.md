@@ -43,5 +43,5 @@ Java -> JNA -> user32.dll -> WH_KEYBOARD_LL
 And controls Camilla through:
 
 ```text
-Camilla DSP API
+Camilla DSP 
 ```
