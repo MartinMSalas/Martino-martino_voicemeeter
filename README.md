@@ -40,7 +40,7 @@ This project uses native Windows keyboard hook via JNA:
 Java -> JNA -> user32.dll -> WH_KEYBOARD_LL
 ```
 
-And controls Camilla through:
+And controls Camilla GUI through:
 
 ```text
 Camilla DSP 
