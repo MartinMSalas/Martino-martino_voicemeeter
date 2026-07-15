@@ -30,7 +30,7 @@ Camilla DSP
 - Volume Up: +0.5 dB
 - Volume Down: -0.5 dB
 - Mute: toggle mute
-- ESC: exits the app
+- ESC: log key
 
 ## Notes
 
