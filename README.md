@@ -29,7 +29,7 @@ Camilla DSP
 
 - Volume Up: +0.5 dB
 - Volume Down: -0.5 dB
-- Mute: toggle mute
+- Mute: toggle mute DISABLED
 
 
 ## Notes
