@@ -1,4 +1,4 @@
-# Martino Voicemeeter Controller
+# Martino Camilla Dsp Controller
 
 Prototype 1: Windows media-volume keys control Camilla DSP Gui gain.
 
